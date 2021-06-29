@@ -1,21 +1,8 @@
 <?php   
     error_reporting(0);
-    /*  MENU INCIO DE OPCIONES*/
+    /*  header*/
     include 'Vista/cabecera.php';  
 ?>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
-    <link rel="shortcut icon" type="image/x-icon" href="Imagenes/garantia.png">
-    <script src="https://kit.fontawesome.com/57b38ed15d.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
 
     <div class="contenedor-opciones">
         <div class="contenedor-caja">
@@ -26,6 +13,29 @@
             <a href="Vista/Texto.php"><i class="fas fa-atlas"></i></a>       
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
     <?php include 'footer.php'; ?>    
-</body>
-</html>
