@@ -1,9 +1,4 @@
-<?php   
-    /* TEXTOS DE CONTACTO*/
-    include 'cabecera.php';  
-    include 'menu.php';
-    error_reporting(0);
-    ?>
+
 
     <div class="contenedor-all-2">
         <!-- FORMULARIO DE GENERADO DE NUMERO API PARA WHATSAPP -->
@@ -106,7 +101,3 @@
         </div>
 
     </div><!--Fin contenedor general-->   
-
-    <?php include 'footer.php'; ?>
-</body>
-</html>
