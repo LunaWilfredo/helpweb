@@ -17,19 +17,19 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
             <a class="navbar-brand" href="#"><i class="fab fa-quora"></i>uestion</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#link">Links</a>
+                        <a class="nav-link" href="#">Links</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#text"><i class="fas fa-atlas"></i> Text</a>
@@ -44,7 +44,7 @@
     </header>
     
     <!-- Cuerpo  link-->
-    <div class="container">
+    <div class="container mt-5">
         <!-- start link -->
         <div id="link" class="mt-2">
             <h1>Links</h1>  
@@ -198,61 +198,69 @@
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Incidente
-                            </button>
-                        </h2>
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Incidente
+                                </button>
+                            </h2>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
                                 <p>Utiliza el siguiente texto para atender un incidente:</p>
-                                <p>Buenos dias /tardes/noches  soy del area de sistemas de MDY , 
-                                me comunico con usted para solicitarle una foto del aplicativo 
-                                anydesk , para poder apoyarlo(a).
-                                </p>
+                                <p>Buenos dias /tardes/noches  soy del area de sistemas de MDY , me comunico con usted para solicitarle una foto del aplicativo anydesk , para poder apoyarlo(a).</p>
                                 <p>Le brindo el instalador  en caso que no tengas instalado el programa.</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="card">
                         <div class="card-header" id="headingTwo">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Collapsible Group Item #2
-                            </button>
-                        </h2>
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Habilitaciones/Requerimientos
+                                </button>
+                            </h2>
                         </div>
+
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Some placeholder content for the second accordion panel. This panel is hidden by default.
-                        </div>
+                            <div class="card-body">
+                                <p>Utiliza el siguiente texto para atender un incidente:</p>
+                                <p>Buenos dias /tardes/noches  soy del area de sistemas de MDY , me comunico con usted para solicitarle una foto del aplicativo anydesk , para poder realizar la habilitiacion Correo/VPN/Remoto Operaciones.</p>
+                                <p>Le brindo el instalador  en caso que no tengas instalado el programa.</p>
+                            </div>
                         </div>
                     </div>
+
                     <div class="card">
                         <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
-                            </button>
-                        </h2>
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Consulta
+                                </button>
+                            </h2>
                         </div>
+
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                            And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-                        </div>
+                            <div class="card-body">
+                                <p>Utiliza el siguiente texto para atender un incidente:</p>
+                                <p>Buenos dias soy del area de sistemas , le escribo para consultarte si te pudiste conectar a la vpn? </p>
+                                <p>Una consulta , conoce el manual de resolución de problemas técnicos?</p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
         </div>
         <!-- end text -->
+
+        
         
     
 
-    <footer>
+    <footer class="text-center mt-2">
         <p>Design by <a href="">MS</a> ©Copyrigth</p>
     </footer>
 
